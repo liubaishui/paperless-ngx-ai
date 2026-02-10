@@ -2704,7 +2704,7 @@ class DocumentChatMessageSerializer(serializers.Serializer):
             ("system", "system"),
             ("user", "user"),
             ("assistant", "assistant"),
-        ]
+        ],
     )
     content = serializers.CharField()
 

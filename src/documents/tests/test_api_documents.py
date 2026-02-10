@@ -443,7 +443,7 @@ class TestDocumentApi(DirectoriesMixin, DocumentConsumeDelayMixin, APITestCase):
                 'data: {"choices":[{"delta":{"content":"Hello"}}]}',
                 'data: {"choices":[{"delta":{"content":" world"}}]}',
                 "data: [DONE]",
-            ]
+            ],
         )
         mock_response.raise_for_status.return_value = None
         mock_client.post.return_value = mock_response

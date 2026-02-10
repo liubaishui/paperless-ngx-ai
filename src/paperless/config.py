@@ -92,7 +92,7 @@ class OcrConfig(OutputTypeConfig):
         self.vlm_analysis_enabled = bool(
             app_config.vlm_analysis_enabled
             if app_config.vlm_analysis_enabled is not None
-            else getattr(settings, "OCR_VLM_ANALYSIS_ENABLED", False)
+            else getattr(settings, "OCR_VLM_ANALYSIS_ENABLED", False),
         )
 
         user_args = None

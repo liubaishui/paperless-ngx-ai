@@ -1,6 +1,5 @@
 from django.db import migrations
 
-
 DOC_READ_DEFAULT = """
 You are a helpful assistant that answers questions about the provided document.
 Only use the document content to answer. If you cannot find the answer in the document, explicitly say so.

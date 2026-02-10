@@ -401,8 +401,9 @@ class RasterisedDocumentParser(DocumentParser):
                         is_default=True,
                     ).first()
                     if vlm_model:
-                        import httpx
                         import json
+
+                        import httpx
 
                         url = f"{vlm_model.api_domain.rstrip('/')}/chat/completions"
 
@@ -414,7 +415,7 @@ class RasterisedDocumentParser(DocumentParser):
 
                         # Load VLM analysis prompt from configuration
                         prompt = Prompt.objects.filter(
-                            type="VLM_ANALYSIS_IMAGE"
+                            type="VLM_ANALYSIS_IMAGE",
                         ).first()
                         prompt_text = (
                             prompt.content
@@ -472,7 +473,7 @@ class RasterisedDocumentParser(DocumentParser):
                                         except (TypeError, ValueError):
                                             continue
                                     elif entry_type == "json" and isinstance(
-                                        value, str
+                                        value, str,
                                     ):
                                         try:
                                             value = json.loads(value)

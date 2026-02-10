@@ -195,8 +195,9 @@ from paperless import version
 from paperless.celery import app as celery_app
 from paperless.config import GeneralConfig
 from paperless.db import GnuPG
-from paperless.models import AIModel, Prompt
+from paperless.models import AIModel
 from paperless.models import ApplicationConfiguration
+from paperless.models import Prompt
 from paperless.serialisers import GroupSerializer
 from paperless.serialisers import UserSerializer
 from paperless.views import StandardPagination
