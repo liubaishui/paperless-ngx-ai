@@ -673,4 +673,3 @@ jobs:
               issue_number: result.data.number,
               labels: ['documentation', 'skip-changelog']
             });
-

@@ -397,4 +397,3 @@ class Prompt(models.Model):
 
     def __str__(self) -> str:  # pragma: no cover
         return f"{self.type}"
-
