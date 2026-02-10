@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: paperless-ngx\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-10 13:05+0000\n"
+"POT-Creation-Date: 2026-02-10 13:38+0000\n"
 "PO-Revision-Date: 2022-02-17 04:17\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
@@ -1519,79 +1519,79 @@ msgstr ""
 msgid "Paperless"
 msgstr ""
 
-#: paperless/migrations/0005_aimodel.py:28 paperless/models.py:292
+#: paperless/migrations/0005_aimodel.py:29 paperless/models.py:292
 msgid "display name"
 msgstr ""
 
-#: paperless/migrations/0005_aimodel.py:35 paperless/models.py:285
+#: paperless/migrations/0005_aimodel.py:36 paperless/models.py:285
 msgid "DeepSeek"
 msgstr ""
 
-#: paperless/migrations/0005_aimodel.py:36 paperless/models.py:288
+#: paperless/migrations/0005_aimodel.py:37 paperless/models.py:288
 msgid "Volcano Engine"
 msgstr ""
 
-#: paperless/migrations/0005_aimodel.py:39 paperless/models.py:298
+#: paperless/migrations/0005_aimodel.py:40 paperless/models.py:298
 msgid "supplier"
 msgstr ""
 
-#: paperless/migrations/0005_aimodel.py:47 paperless/models.py:304
+#: paperless/migrations/0005_aimodel.py:48 paperless/models.py:304
 msgid "model type"
 msgstr ""
 
-#: paperless/migrations/0005_aimodel.py:54 paperless/models.py:310
+#: paperless/migrations/0005_aimodel.py:55 paperless/models.py:310
 msgid "base model"
 msgstr ""
 
-#: paperless/migrations/0005_aimodel.py:61 paperless/models.py:315
+#: paperless/migrations/0005_aimodel.py:62 paperless/models.py:315
 msgid "API domain"
 msgstr ""
 
-#: paperless/migrations/0005_aimodel.py:67 paperless/models.py:320
+#: paperless/migrations/0005_aimodel.py:68 paperless/models.py:320
 msgid "API key"
 msgstr ""
 
-#: paperless/migrations/0005_aimodel.py:75 paperless/models.py:324
+#: paperless/migrations/0005_aimodel.py:76 paperless/models.py:324
 msgid "advanced parameters"
 msgstr ""
 
-#: paperless/migrations/0005_aimodel.py:82 paperless/models.py:330
+#: paperless/migrations/0005_aimodel.py:83 paperless/models.py:330
 msgid "default model"
 msgstr ""
 
-#: paperless/migrations/0005_aimodel.py:89
-#: paperless/migrations/0008_prompt.py:41 paperless/models.py:335
+#: paperless/migrations/0005_aimodel.py:90
+#: paperless/migrations/0008_prompt.py:42 paperless/models.py:335
 #: paperless/models.py:385
 msgid "created at"
 msgstr ""
 
-#: paperless/migrations/0005_aimodel.py:96
-#: paperless/migrations/0008_prompt.py:48 paperless/models.py:340
+#: paperless/migrations/0005_aimodel.py:97
+#: paperless/migrations/0008_prompt.py:49 paperless/models.py:340
 #: paperless/models.py:390
 msgid "updated at"
 msgstr ""
 
-#: paperless/migrations/0005_aimodel.py:101 paperless/models.py:345
+#: paperless/migrations/0005_aimodel.py:102 paperless/models.py:345
 msgid "AI model"
 msgstr ""
 
-#: paperless/migrations/0005_aimodel.py:102 paperless/models.py:346
+#: paperless/migrations/0005_aimodel.py:103 paperless/models.py:346
 msgid "AI models"
 msgstr ""
 
-#: paperless/migrations/0008_prompt.py:28 paperless/models.py:375
+#: paperless/migrations/0008_prompt.py:29 paperless/models.py:375
 msgid "prompt type"
 msgstr ""
 
-#: paperless/migrations/0008_prompt.py:34 paperless/models.py:381
+#: paperless/migrations/0008_prompt.py:35 paperless/models.py:381
 msgid "prompt content"
 msgstr ""
 
-#: paperless/migrations/0008_prompt.py:53 paperless/models.py:395
+#: paperless/migrations/0008_prompt.py:54 paperless/models.py:395
 msgid "Prompt"
 msgstr ""
 
-#: paperless/migrations/0008_prompt.py:54 paperless/models.py:396
+#: paperless/migrations/0008_prompt.py:55 paperless/models.py:396
 msgid "Prompts"
 msgstr ""
 
