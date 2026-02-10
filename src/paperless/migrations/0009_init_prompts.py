@@ -6,7 +6,6 @@ You are a helpful assistant that answers questions about the provided document.
 Only use the document content to answer. If you cannot find the answer in the document, explicitly say so.
 """.strip()
 
-# ruff: noqa: RUF001
 VLM_ANALYSIS_IMAGE_DEFAULT = """
 你是一个图像理解模型，任务是从提供的文档图片中尽可能完整、准确地提取所有可见文字，并以纯文本形式返回。
 """.strip()
