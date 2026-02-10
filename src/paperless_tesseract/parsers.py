@@ -405,7 +405,7 @@ class RasterisedDocumentParser(DocumentParser):
                         url = f"{vlm_model.api_domain.rstrip('/')}/chat/completions"
 
                         # Encode image as base64 and pass it as a parameter in messages
-                        with open(document_path, "rb") as image_file:
+                        with open(document_path, "rb") as image_file:  # noqa: PTH123
                             image_bytes = image_file.read()
                         image_b64 = base64.b64encode(image_bytes).decode("ascii")
                         image_data_url = f"data:{mime_type};base64,{image_b64}"

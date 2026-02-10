@@ -345,6 +345,9 @@ class AIModel(models.Model):
         verbose_name = _("AI model")
         verbose_name_plural = _("AI models")
 
+    def __str__(self) -> str:  # pragma: no cover  # noqa: DJ012
+        return self.name
+
     def save(self, *args, **kwargs):
         # Ensure there is always exactly one default model per model_type
         if self.is_default:
@@ -360,9 +363,6 @@ class AIModel(models.Model):
                 self.is_default = True
 
         super().save(*args, **kwargs)
-
-    def __str__(self) -> str:  # pragma: no cover
-        return self.name
 
 
 class Prompt(models.Model):
