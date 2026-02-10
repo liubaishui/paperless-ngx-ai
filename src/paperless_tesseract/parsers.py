@@ -473,7 +473,8 @@ class RasterisedDocumentParser(DocumentParser):
                                         except (TypeError, ValueError):
                                             continue
                                     elif entry_type == "json" and isinstance(
-                                        value, str,
+                                        value,
+                                        str,
                                     ):
                                         try:
                                             value = json.loads(value)

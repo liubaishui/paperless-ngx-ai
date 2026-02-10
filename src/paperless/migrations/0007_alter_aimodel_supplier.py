@@ -5,7 +5,6 @@ from django.db import models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ("paperless", "0006_applicationconfiguration_vlm_analysis_enabled"),
     ]
@@ -14,6 +13,17 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name="aimodel",
             name="supplier",
-            field=models.CharField(choices=[("alibaba_cloud_bailian", "Alibaba Cloud Bailian"), ("deepseek", "DeepSeek"), ("openai", "OpenAI"), ("kimi", "Kimi"), ("volcano_engine", "Volcano Engine"), ("generic_openai", "Generic OpenAI")], max_length=64, verbose_name="supplier"),
+            field=models.CharField(
+                choices=[
+                    ("alibaba_cloud_bailian", "Alibaba Cloud Bailian"),
+                    ("deepseek", "DeepSeek"),
+                    ("openai", "OpenAI"),
+                    ("kimi", "Kimi"),
+                    ("volcano_engine", "Volcano Engine"),
+                    ("generic_openai", "Generic OpenAI"),
+                ],
+                max_length=64,
+                verbose_name="supplier",
+            ),
         ),
     ]

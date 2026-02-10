@@ -5,7 +5,6 @@ from django.db import models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ("paperless", "0009_init_prompts"),
     ]
@@ -14,6 +13,8 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name="prompt",
             name="id",
-            field=models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name="ID"),
+            field=models.AutoField(
+                auto_created=True, primary_key=True, serialize=False, verbose_name="ID"
+            ),
         ),
     ]

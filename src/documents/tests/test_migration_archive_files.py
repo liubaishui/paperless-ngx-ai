@@ -375,8 +375,9 @@ class TestMigrateArchiveFilesErrors(DirectoriesMixin, TestMigrations):
             len(
                 list(
                     filter(
-                        lambda log: "Unable to regenerate archive document for ID:"
-                        in log,
+                        lambda log: (
+                            "Unable to regenerate archive document for ID:" in log
+                        ),
                         capture.output,
                     ),
                 ),
@@ -424,8 +425,10 @@ class TestMigrateArchiveFilesErrors(DirectoriesMixin, TestMigrations):
             len(
                 list(
                     filter(
-                        lambda log: "Parser did not return an archive document for document"
-                        in log,
+                        lambda log: (
+                            "Parser did not return an archive document for document"
+                            in log
+                        ),
                         capture.output,
                     ),
                 ),
