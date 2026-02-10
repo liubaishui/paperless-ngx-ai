@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: paperless-ngx\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-10 12:42+0000\n"
+"POT-Creation-Date: 2026-02-10 13:05+0000\n"
 "PO-Revision-Date: 2022-02-17 04:17\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
@@ -1561,13 +1561,13 @@ msgstr ""
 
 #: paperless/migrations/0005_aimodel.py:89
 #: paperless/migrations/0008_prompt.py:41 paperless/models.py:335
-#: paperless/models.py:380
+#: paperless/models.py:385
 msgid "created at"
 msgstr ""
 
 #: paperless/migrations/0005_aimodel.py:96
 #: paperless/migrations/0008_prompt.py:48 paperless/models.py:340
-#: paperless/models.py:385
+#: paperless/models.py:390
 msgid "updated at"
 msgstr ""
 
@@ -1579,19 +1579,19 @@ msgstr ""
 msgid "AI models"
 msgstr ""
 
-#: paperless/migrations/0008_prompt.py:28 paperless/models.py:370
+#: paperless/migrations/0008_prompt.py:28 paperless/models.py:375
 msgid "prompt type"
 msgstr ""
 
-#: paperless/migrations/0008_prompt.py:34 paperless/models.py:376
+#: paperless/migrations/0008_prompt.py:34 paperless/models.py:381
 msgid "prompt content"
 msgstr ""
 
-#: paperless/migrations/0008_prompt.py:53 paperless/models.py:390
+#: paperless/migrations/0008_prompt.py:53 paperless/models.py:395
 msgid "Prompt"
 msgstr ""
 
-#: paperless/migrations/0008_prompt.py:54 paperless/models.py:391
+#: paperless/migrations/0008_prompt.py:54 paperless/models.py:396
 msgid "Prompts"
 msgstr ""
 
@@ -1947,7 +1947,7 @@ msgstr ""
 msgid "Chinese Traditional"
 msgstr ""
 
-#: paperless/urls.py:373
+#: paperless/urls.py:374
 msgid "Paperless-ngx administration"
 msgstr ""
 
