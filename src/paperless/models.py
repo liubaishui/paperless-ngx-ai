@@ -345,7 +345,7 @@ class AIModel(models.Model):
         verbose_name = _("AI model")
         verbose_name_plural = _("AI models")
 
-    def __str__(self) -> str:  # pragma: no cover  # noqa: DJ012
+    def __str__(self) -> str:  # pragma: no cover
         return self.name
 
     def save(self, *args, **kwargs):
@@ -353,13 +353,18 @@ class AIModel(models.Model):
         if self.is_default:
             # Clear default flag for other models of the same type
             AIModel.objects.filter(
-                model_type=self.model_type
+                model_type=self.model_type,
             ).exclude(pk=self.pk).update(is_default=False)
         else:
             # If no other default exists for this model_type, make this one default (e.g. first model)
-            if not AIModel.objects.filter(
-                model_type=self.model_type
-            ).exclude(pk=self.pk).filter(is_default=True).exists():
+            if (
+                not AIModel.objects.filter(
+                    model_type=self.model_type,
+                )
+                .exclude(pk=self.pk)
+                .filter(is_default=True)
+                .exists()
+            ):
                 self.is_default = True
 
         super().save(*args, **kwargs)

@@ -37,15 +37,15 @@ from documents.index import DelayedQuery
 from documents.permissions import PaperlessObjectPermissions
 from paperless.filters import GroupFilterSet
 from paperless.filters import UserFilterSet
-from paperless.models import AIModel, ApplicationConfiguration, Prompt
-from paperless.serialisers import (
-    AIModelSerializer,
-    ApplicationConfigurationSerializer,
-    PromptSerializer,
-)
+from paperless.models import AIModel
+from paperless.models import ApplicationConfiguration
+from paperless.models import Prompt
+from paperless.serialisers import AIModelSerializer
+from paperless.serialisers import ApplicationConfigurationSerializer
 from paperless.serialisers import GroupSerializer
 from paperless.serialisers import PaperlessAuthTokenSerializer
 from paperless.serialisers import ProfileSerializer
+from paperless.serialisers import PromptSerializer
 from paperless.serialisers import UserSerializer
 
 
@@ -389,7 +389,6 @@ class PromptViewSet(ModelViewSet):
 
     serializer_class = PromptSerializer
     permission_classes = (IsAuthenticated, DjangoModelPermissions)
-
 
 
 @extend_schema_view(

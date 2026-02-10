@@ -44,7 +44,7 @@ from documents.views import WorkflowTriggerViewSet
 from documents.views import WorkflowViewSet
 from documents.views import serve_logo
 from paperless.consumers import StatusConsumer
-from paperless.views import AIModelViewSet, PromptViewSet
+from paperless.views import AIModelViewSet
 from paperless.views import ApplicationConfigurationViewSet
 from paperless.views import DisconnectSocialAccountView
 from paperless.views import FaviconView
@@ -52,6 +52,7 @@ from paperless.views import GenerateAuthTokenView
 from paperless.views import GroupViewSet
 from paperless.views import PaperlessObtainAuthTokenView
 from paperless.views import ProfileView
+from paperless.views import PromptViewSet
 from paperless.views import SocialAccountProvidersView
 from paperless.views import TOTPView
 from paperless.views import UserViewSet

@@ -14,10 +14,11 @@ from documents.parsers import make_thumbnail_from_pdf
 from documents.utils import maybe_override_pixel_limit
 from documents.utils import run_subprocess
 from paperless.config import OcrConfig
-from paperless.models import AIModel, Prompt
+from paperless.models import AIModel
 from paperless.models import ArchiveFileChoices
 from paperless.models import CleanChoices
 from paperless.models import ModeChoices
+from paperless.models import Prompt
 
 
 class NoTextFoundException(Exception):
@@ -396,7 +397,8 @@ class RasterisedDocumentParser(DocumentParser):
             if self.settings.vlm_analysis_enabled and self.is_image(mime_type):
                 try:
                     vlm_model = AIModel.objects.filter(
-                        model_type="vlm", is_default=True
+                        model_type="vlm",
+                        is_default=True,
                     ).first()
                     if vlm_model:
                         import httpx

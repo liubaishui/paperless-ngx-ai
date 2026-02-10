@@ -13,7 +13,9 @@ from django.contrib.auth.password_validation import validate_password
 from rest_framework import serializers
 from rest_framework.authtoken.serializers import AuthTokenSerializer
 
-from paperless.models import AIModel, ApplicationConfiguration, Prompt
+from paperless.models import AIModel
+from paperless.models import ApplicationConfiguration
+from paperless.models import Prompt
 from paperless.validators import reject_dangerous_svg
 from paperless_mail.serialisers import ObfuscatedPasswordField
 
@@ -254,4 +256,3 @@ class PromptSerializer(serializers.ModelSerializer):
     class Meta:
         model = Prompt
         fields = "__all__"
-
