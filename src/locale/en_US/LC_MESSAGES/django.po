@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: paperless-ngx\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-14 16:09+0000\n"
+"POT-Creation-Date: 2026-02-10 12:42+0000\n"
 "PO-Revision-Date: 2022-02-17 04:17\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
@@ -1519,6 +1519,82 @@ msgstr ""
 msgid "Paperless"
 msgstr ""
 
+#: paperless/migrations/0005_aimodel.py:28 paperless/models.py:292
+msgid "display name"
+msgstr ""
+
+#: paperless/migrations/0005_aimodel.py:35 paperless/models.py:285
+msgid "DeepSeek"
+msgstr ""
+
+#: paperless/migrations/0005_aimodel.py:36 paperless/models.py:288
+msgid "Volcano Engine"
+msgstr ""
+
+#: paperless/migrations/0005_aimodel.py:39 paperless/models.py:298
+msgid "supplier"
+msgstr ""
+
+#: paperless/migrations/0005_aimodel.py:47 paperless/models.py:304
+msgid "model type"
+msgstr ""
+
+#: paperless/migrations/0005_aimodel.py:54 paperless/models.py:310
+msgid "base model"
+msgstr ""
+
+#: paperless/migrations/0005_aimodel.py:61 paperless/models.py:315
+msgid "API domain"
+msgstr ""
+
+#: paperless/migrations/0005_aimodel.py:67 paperless/models.py:320
+msgid "API key"
+msgstr ""
+
+#: paperless/migrations/0005_aimodel.py:75 paperless/models.py:324
+msgid "advanced parameters"
+msgstr ""
+
+#: paperless/migrations/0005_aimodel.py:82 paperless/models.py:330
+msgid "default model"
+msgstr ""
+
+#: paperless/migrations/0005_aimodel.py:89
+#: paperless/migrations/0008_prompt.py:41 paperless/models.py:335
+#: paperless/models.py:380
+msgid "created at"
+msgstr ""
+
+#: paperless/migrations/0005_aimodel.py:96
+#: paperless/migrations/0008_prompt.py:48 paperless/models.py:340
+#: paperless/models.py:385
+msgid "updated at"
+msgstr ""
+
+#: paperless/migrations/0005_aimodel.py:101 paperless/models.py:345
+msgid "AI model"
+msgstr ""
+
+#: paperless/migrations/0005_aimodel.py:102 paperless/models.py:346
+msgid "AI models"
+msgstr ""
+
+#: paperless/migrations/0008_prompt.py:28 paperless/models.py:370
+msgid "prompt type"
+msgstr ""
+
+#: paperless/migrations/0008_prompt.py:34 paperless/models.py:376
+msgid "prompt content"
+msgstr ""
+
+#: paperless/migrations/0008_prompt.py:53 paperless/models.py:390
+msgid "Prompt"
+msgstr ""
+
+#: paperless/migrations/0008_prompt.py:54 paperless/models.py:391
+msgid "Prompts"
+msgstr ""
+
 #: paperless/models.py:26
 msgid "pdf"
 msgstr ""
@@ -1643,215 +1719,235 @@ msgstr ""
 msgid "Sets the maximum image size for decompression"
 msgstr ""
 
-#: paperless/models.py:158
+#: paperless/models.py:159
+msgid "Enable VLM image understanding"
+msgstr ""
+
+#: paperless/models.py:165
 msgid "Sets the Ghostscript color conversion strategy"
 msgstr ""
 
-#: paperless/models.py:166
+#: paperless/models.py:173
 msgid "Adds additional user arguments for OCRMyPDF"
 msgstr ""
 
-#: paperless/models.py:175
+#: paperless/models.py:182
 msgid "Application title"
 msgstr ""
 
-#: paperless/models.py:182
+#: paperless/models.py:189
 msgid "Application logo"
 msgstr ""
 
-#: paperless/models.py:197
+#: paperless/models.py:204
 msgid "Enables barcode scanning"
 msgstr ""
 
-#: paperless/models.py:203
+#: paperless/models.py:210
 msgid "Enables barcode TIFF support"
 msgstr ""
 
-#: paperless/models.py:209
+#: paperless/models.py:216
 msgid "Sets the barcode string"
 msgstr ""
 
-#: paperless/models.py:217
+#: paperless/models.py:224
 msgid "Retains split pages"
 msgstr ""
 
-#: paperless/models.py:223
+#: paperless/models.py:230
 msgid "Enables ASN barcode"
 msgstr ""
 
-#: paperless/models.py:229
+#: paperless/models.py:236
 msgid "Sets the ASN barcode prefix"
 msgstr ""
 
-#: paperless/models.py:237
+#: paperless/models.py:244
 msgid "Sets the barcode upscale factor"
 msgstr ""
 
-#: paperless/models.py:244
+#: paperless/models.py:251
 msgid "Sets the barcode DPI"
 msgstr ""
 
-#: paperless/models.py:251
+#: paperless/models.py:258
 msgid "Sets the maximum pages for barcode"
 msgstr ""
 
-#: paperless/models.py:258
+#: paperless/models.py:265
 msgid "Enables tag barcode"
 msgstr ""
 
-#: paperless/models.py:264
+#: paperless/models.py:271
 msgid "Sets the tag barcode mapping"
 msgstr ""
 
-#: paperless/models.py:269
+#: paperless/models.py:276
 msgid "paperless application settings"
 msgstr ""
 
-#: paperless/settings.py:773
-msgid "English (US)"
+#: paperless/models.py:284
+msgid "Alibaba Cloud Bailian"
 msgstr ""
 
-#: paperless/settings.py:774
-msgid "Arabic"
+#: paperless/models.py:286
+msgid "OpenAI"
 msgstr ""
 
-#: paperless/settings.py:775
-msgid "Afrikaans"
+#: paperless/models.py:287
+msgid "Kimi"
 msgstr ""
 
-#: paperless/settings.py:776
-msgid "Belarusian"
-msgstr ""
-
-#: paperless/settings.py:777
-msgid "Bulgarian"
-msgstr ""
-
-#: paperless/settings.py:778
-msgid "Catalan"
-msgstr ""
-
-#: paperless/settings.py:779
-msgid "Czech"
-msgstr ""
-
-#: paperless/settings.py:780
-msgid "Danish"
+#: paperless/models.py:289
+msgid "Generic OpenAI"
 msgstr ""
 
 #: paperless/settings.py:781
-msgid "German"
+msgid "English (US)"
 msgstr ""
 
 #: paperless/settings.py:782
-msgid "Greek"
+msgid "Arabic"
 msgstr ""
 
 #: paperless/settings.py:783
-msgid "English (GB)"
+msgid "Afrikaans"
 msgstr ""
 
 #: paperless/settings.py:784
-msgid "Spanish"
+msgid "Belarusian"
 msgstr ""
 
 #: paperless/settings.py:785
-msgid "Persian"
+msgid "Bulgarian"
 msgstr ""
 
 #: paperless/settings.py:786
-msgid "Finnish"
+msgid "Catalan"
 msgstr ""
 
 #: paperless/settings.py:787
-msgid "French"
+msgid "Czech"
 msgstr ""
 
 #: paperless/settings.py:788
-msgid "Hungarian"
+msgid "Danish"
 msgstr ""
 
 #: paperless/settings.py:789
-msgid "Italian"
+msgid "German"
 msgstr ""
 
 #: paperless/settings.py:790
-msgid "Japanese"
+msgid "Greek"
 msgstr ""
 
 #: paperless/settings.py:791
-msgid "Korean"
+msgid "English (GB)"
 msgstr ""
 
 #: paperless/settings.py:792
-msgid "Luxembourgish"
+msgid "Spanish"
 msgstr ""
 
 #: paperless/settings.py:793
-msgid "Norwegian"
+msgid "Persian"
 msgstr ""
 
 #: paperless/settings.py:794
-msgid "Dutch"
+msgid "Finnish"
 msgstr ""
 
 #: paperless/settings.py:795
-msgid "Polish"
+msgid "French"
 msgstr ""
 
 #: paperless/settings.py:796
-msgid "Portuguese (Brazil)"
+msgid "Hungarian"
 msgstr ""
 
 #: paperless/settings.py:797
-msgid "Portuguese"
+msgid "Italian"
 msgstr ""
 
 #: paperless/settings.py:798
-msgid "Romanian"
+msgid "Japanese"
 msgstr ""
 
 #: paperless/settings.py:799
-msgid "Russian"
+msgid "Korean"
 msgstr ""
 
 #: paperless/settings.py:800
-msgid "Slovak"
+msgid "Luxembourgish"
 msgstr ""
 
 #: paperless/settings.py:801
-msgid "Slovenian"
+msgid "Norwegian"
 msgstr ""
 
 #: paperless/settings.py:802
-msgid "Serbian"
+msgid "Dutch"
 msgstr ""
 
 #: paperless/settings.py:803
-msgid "Swedish"
+msgid "Polish"
 msgstr ""
 
 #: paperless/settings.py:804
-msgid "Turkish"
+msgid "Portuguese (Brazil)"
 msgstr ""
 
 #: paperless/settings.py:805
-msgid "Ukrainian"
+msgid "Portuguese"
 msgstr ""
 
 #: paperless/settings.py:806
-msgid "Vietnamese"
+msgid "Romanian"
 msgstr ""
 
 #: paperless/settings.py:807
-msgid "Chinese Simplified"
+msgid "Russian"
 msgstr ""
 
 #: paperless/settings.py:808
+msgid "Slovak"
+msgstr ""
+
+#: paperless/settings.py:809
+msgid "Slovenian"
+msgstr ""
+
+#: paperless/settings.py:810
+msgid "Serbian"
+msgstr ""
+
+#: paperless/settings.py:811
+msgid "Swedish"
+msgstr ""
+
+#: paperless/settings.py:812
+msgid "Turkish"
+msgstr ""
+
+#: paperless/settings.py:813
+msgid "Ukrainian"
+msgstr ""
+
+#: paperless/settings.py:814
+msgid "Vietnamese"
+msgstr ""
+
+#: paperless/settings.py:815
+msgid "Chinese Simplified"
+msgstr ""
+
+#: paperless/settings.py:816
 msgid "Chinese Traditional"
 msgstr ""
 
-#: paperless/urls.py:370
+#: paperless/urls.py:373
 msgid "Paperless-ngx administration"
 msgstr ""
 
