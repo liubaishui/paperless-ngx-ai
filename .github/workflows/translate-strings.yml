@@ -13,8 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v5
         with:
-          token: ${{ secrets.PNGX_BOT_PAT }}
-          ref: ${{ github.head_ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Set up Python
         id: setup-python
         uses: actions/setup-python@v6
