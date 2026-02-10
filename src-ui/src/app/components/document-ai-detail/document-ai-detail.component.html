@@ -20,7 +20,7 @@
     </div>
   }
 
- 
+
 
   <div class="btn-group">
     <button (click)="download()" class="btn btn-sm btn-outline-primary" [disabled]="downloading">
@@ -42,9 +42,9 @@
     }
   </div>
 
- 
 
- 
+
+
 
 
   <div class="ms-auto" ngbDropdown>
@@ -88,7 +88,7 @@
       </div>
 
       <ul ngbNav #nav="ngbNav" class="nav-underline flex-nowrap flex-md-wrap overflow-auto" (navChange)="onNavChange($event)" [(activeId)]="activeNavID">
-    
+
         <li [ngbNavItem]="DocumentAiDetailNavIDs.Content">
           <a ngbNavLink i18n>Content</a>
           <ng-template ngbNavContent>
@@ -194,12 +194,12 @@
           </ng-template>
         </li>
 
- 
- 
 
- 
 
-   
+
+
+
+
       </ul>
 
       <div [ngbNavOutlet]="nav" class="mt-3"></div>

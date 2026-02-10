@@ -240,6 +240,3 @@ export const base_model_options = (
   if (!supplier) return []
   return supplier.model_config[model_type]?.model_options || []
 }
-
-
-

@@ -21,5 +21,3 @@ export class AiModelService extends AbstractPaperlessService<AiModel> {
     )
   }
 }
-
-

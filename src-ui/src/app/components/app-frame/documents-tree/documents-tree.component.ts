@@ -140,7 +140,7 @@ export class DocumentsTreeComponent implements OnInit, OnDestroy {
     )
     // Debug log to trace permission evaluation for rename action
     // eslint-disable-next-line no-console
- 
+
     return  hasChangePermission
   }
 
@@ -322,4 +322,3 @@ export class DocumentsTreeComponent implements OnInit, OnDestroy {
     }
   }
 }
-

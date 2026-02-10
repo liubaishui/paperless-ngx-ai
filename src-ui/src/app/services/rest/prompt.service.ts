@@ -38,5 +38,3 @@ export class PromptService extends AbstractPaperlessService<Prompt> {
     ) as unknown as Observable<Prompt[]>
   }
 }
-
-

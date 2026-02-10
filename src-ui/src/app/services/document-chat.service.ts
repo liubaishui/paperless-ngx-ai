@@ -127,5 +127,3 @@ export class DocumentChatService {
     return headers
   }
 }
-
-
